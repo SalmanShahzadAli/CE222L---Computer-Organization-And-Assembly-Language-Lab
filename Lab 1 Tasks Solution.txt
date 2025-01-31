@@ -1,0 +1,44 @@
+# Lab 1 Task 1
+# Sum Of Three Integers
+addi s0,zero,10
+addi s1,zero,20
+addi s2,zero,30
+
+add s3,s0,s1
+add s4,s3,s2
+
+# Lab 1 Task 2
+# Translation of high-level code into assembely language
+addi s0,zero,2
+addi s1,zero,4
+addi s2,zero,6
+
+addi s3,zero,8
+addi s4,zero,10
+addi s5,zero,12
+addi s6,zero,14
+addi s7,zero,16
+
+# Part 1
+sub s0,s1,s2
+
+# Part 2
+add s8,s4,s5
+add s9,s6,s7
+
+sub s3,s8,s9
+
+# Lab 1 Task 3
+# multiply 3 with 17 and save the result in t3
+addi s0,zero,3
+addi s1,zero,17
+
+Mul t3,s0,s1
+
+# Lab 1 Task 4
+# Divide 50 by 3.Store The quotient in t2 and remainder in t3.
+addi s0,zero,50
+addi s1,zero,3
+
+Div t2,s0,s1
+Rem t3,s0,s1
